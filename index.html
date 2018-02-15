@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>Google App Script Tutorial</title>
+<style type="text/css">
+	table tr td{padding:10px;border:1px dashed #ccc;}
+	
+</style>
+</head>
+<body style="text-align: center;">
+	<h1>Submit Html form data to Google Spreadsheet</h1>
+<center>
+	<form id='foo'>
+	<table>
+		<tr>
+			<td>
+				<span>Name:</span>
+			</td>
+			<td>
+				<input type="text" name="name">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<span>City: </span>
+			</td>
+			<td>
+				<input type="text" name="city">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<span>Country: </span>
+			</td>
+			<td>
+				<input type="text" name="country">
+			</td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align:center;">
+				<input type="submit" value="SUBMIT">
+			</td>
+		</tr>
+	</table>
+	</form>
+</center>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="form-submit.js"></script>
+</body>
+</html>
